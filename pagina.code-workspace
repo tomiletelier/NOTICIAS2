@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "bdds"
+		},
+		{
+			"path": "dulzura"
+		},
+		{
+			"path": "personaje"
+		},
+		{
+			"path": "noticias sol"
+		},
+		{
+			"path": "calculadora"
+		},
+		{
+			"path": "portfolio1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "calculadora"
+	}
+}

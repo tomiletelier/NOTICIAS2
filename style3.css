@@ -1,0 +1,194 @@
+
+a{
+  font-style: normal;
+  color:rgb(9, 17, 81);
+  font-size: larger;
+  font-weight: 900;
+  text-align: center;
+text-transform:uppercase; text-decoration: none;
+
+}
+
+        nav ul {
+            list-style: none;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: center; 
+            gap: 100px; 
+        }
+        
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(9, 9, 122);
+            background-color: rgb(165, 239, 97);
+            padding: 10px 30px;
+            border-radius: 80px;
+            
+        }
+
+       
+
+p{
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:unset;
+    font-size:smaller;
+    font-weight:570;
+   margin: 60px;
+   padding: 5px;
+   text-align: center;
+   
+}
+
+
+.con-borde {
+  border: 1px solid rgb(0, 0, 11);
+  padding: 3px;
+
+}
+
+
+
+h2{
+ font-style: normal;
+  color:rgb(5, 84, 55);
+  font-size: larger;
+  font-weight: 900;
+  text-align: center;
+  text-decoration-style:dotted;
+
+}
+
+h1{
+ font-style: normal;
+  color:rgb(5, 84, 55);
+  font-size: larger;
+  font-weight: 900;
+  text-align: center;
+  text-decoration-style:dotted;
+
+}
+
+body
+{ 
+background-color:rgb(224, 223, 220);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+}
+    
+.div1 {
+    grid-column: span 3 / span 3;
+    height: max-content;
+}
+
+
+
+.div2 {
+    grid-row-start: 2;
+    border-radius: 10px 10px;
+    padding: 5px;
+    margin: 5px;
+    overflow:visible;
+    height: max-content;
+    
+}
+
+.div2:hover{
+border: 2px rgb(15, 96, 58) solid;
+animation: deslizar-abajo 6s infinite;
+}
+
+@keyframes deslizar-abajo {
+from{transform:translateY(100px);opacity: 0;}
+to{transform: translateY(0);opacity: 1;}
+}
+
+
+
+.div3 {
+    grid-row-start: 2;
+        border-radius: 5px 5px;
+    padding: 5px;
+    margin: 5px;
+    overflow:visible;
+    height: max-content;
+}
+
+.div3:hover{
+border: 2px rgb(15, 96, 58) solid;
+animation: deslizar-abajo 6s infinite;
+}
+
+@keyframes deslizar-abajo {
+from{transform:translateY(100px);opacity: 0;}
+to{transform: translateY(0);opacity: 1;}
+}
+
+
+.div4 {
+    grid-row-start: 2;
+        border-radius: 5px 5px;
+    padding: 5px;
+    margin: 5px;
+    height: max-content;
+}
+
+
+.div4:hover{
+border: 2px rgb(15, 96, 58) solid;
+animation: deslizar-abajo 6s infinite;
+}
+
+@keyframes deslizar-abajo {
+from{transform:translateY(100px);opacity: 0;}
+to{transform: translateY(0);opacity: 1;}
+}
+
+
+.div5 {
+    grid-column: span 3 / span 3;
+    padding: 20px;
+    margin: 10px;
+    border: 10px;
+    background-color: rgb(215, 215, 215);
+}
+
+.div5:hover{
+border: 2px rgb(15, 96, 58) solid;
+animation: publicidad 6s infinite;
+}
+
+@keyframes publicidad {
+    to{
+       transform: scale(0.9);
+
+    }
+}
+        
+
+
+div p{
+
+   margin: 5px;
+   padding:5px;
+   height: 100px;
+   width: 500px;
+   text-align: center;
+   
+
+}
+
+div h2{
+    margin: 5px;
+    padding: 5px;
+    height: 90px;
+}
+
+
