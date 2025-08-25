@@ -21,10 +21,10 @@ text-transform:uppercase; text-decoration: none;
 
         nav ul li a {
             text-decoration: none;
-            color: rgb(9, 9, 122);
-            background-color: rgb(165, 239, 97);
+               color: rgb(255, 255, 255);
+     background-color: rgb(3, 59, 37);
             padding: 10px 30px;
-            border-radius: 80px;
+            border-radius: 2px;
             
         }
 
@@ -81,6 +81,8 @@ background-color:rgb(224, 223, 220);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1px;
+    height: 1000px;
+
 }
     
 .div1 {
@@ -88,6 +90,17 @@ background-color:rgb(224, 223, 220);
     height: max-content;
 }
 
+@keyframes pulsoLogo{
+
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+
+}
+
+.logo {
+animation: pulsoLogo 1.2s infinite;
+
+}
 
 
 .div2 {
@@ -101,13 +114,17 @@ background-color:rgb(224, 223, 220);
 }
 
 .div2:hover{
-border: 2px rgb(15, 96, 58) solid;
-animation: deslizar-abajo 6s infinite;
+border: 0.7px rgb(15, 96, 58) solid;
+
+    h2{animation: tituloUp 0.6s ease forwards;
+    }
 }
 
-@keyframes deslizar-abajo {
-from{transform:translateY(100px);opacity: 0;}
-to{transform: translateY(0);opacity: 1;}
+
+@keyframes tituloUp {
+
+0% {opacity: 0; transform: translateY(10px);}
+100% {opacity: 1; transform: translateY(0);}
 }
 
 
@@ -122,15 +139,18 @@ to{transform: translateY(0);opacity: 1;}
 }
 
 .div3:hover{
-border: 2px rgb(15, 96, 58) solid;
-animation: deslizar-abajo 6s infinite;
+border: 0.7px rgb(15, 96, 58) solid;
+
+    h2{animation: tituloUp 0.6s ease forwards;
+    }
 }
 
-@keyframes deslizar-abajo {
-from{transform:translateY(100px);opacity: 0;}
-to{transform: translateY(0);opacity: 1;}
-}
 
+@keyframes tituloUp {
+
+0% {opacity: 0; transform: translateY(10px);}
+100% {opacity: 1; transform: translateY(0);}
+}
 
 .div4 {
     grid-row-start: 2;
@@ -142,26 +162,30 @@ to{transform: translateY(0);opacity: 1;}
 
 
 .div4:hover{
-border: 2px rgb(15, 96, 58) solid;
-animation: deslizar-abajo 6s infinite;
+border: 0.7px rgb(15, 96, 58) solid;
+
+    h2{animation: tituloUp 0.6s ease forwards;
+    }
 }
 
-@keyframes deslizar-abajo {
-from{transform:translateY(100px);opacity: 0;}
-to{transform: translateY(0);opacity: 1;}
+
+@keyframes tituloUp {
+
+0% {opacity: 0; transform: translateY(10px);}
+100% {opacity: 1; transform: translateY(0);}
 }
 
 
 .div5 {
     grid-column: span 3 / span 3;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     border: 10px;
     background-color: rgb(215, 215, 215);
+    text-align: center;
 }
 
 .div5:hover{
-border: 2px rgb(15, 96, 58) solid;
 animation: publicidad 6s infinite;
 }
 
@@ -177,18 +201,20 @@ animation: publicidad 6s infinite;
 div p{
 
    margin: 5px;
-   padding:5px;
-   height: 100px;
-   width: 500px;
+   padding: 5px;
+   height: 80px;
+   width: 450px;
    text-align: center;
-   
+
 
 }
 
 div h2{
     margin: 5px;
     padding: 5px;
-    height: 90px;
+    height: 80px;
+    width: 500px;
+    text-align: center;
 }
 
 
